@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "../../img/avataaars.svg"
 import Style from "./Home.module.css"
+import { TabTitle } from "../Title"
 
 export default function Home() {
+  TabTitle("START FRAMEWORK")
   return <>
 <div className={`${Style.Home} mt-5 text-white`}>
     <div className="my-5">
