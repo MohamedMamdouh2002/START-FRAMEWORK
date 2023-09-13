@@ -1,0 +1,42 @@
+.about{
+    height: 80vh; margin-top: 75px;
+    min-height: inherit;
+
+    background-color: #1ABC9C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .icooon{
+    display: flex;
+    position: relative;
+    justify-content: center;
+} */
+.icon{
+
+    position: relative;
+    /* text-align: center; */
+
+}
+.bef
+{
+ 
+    position: absolute;
+    width: 10%;
+    top: 11px; 
+    right: 53%;
+    height: 4px;
+    background-color: rgb(255, 0, 0);
+    z-index: 5555;
+}
+.aft
+{
+width: 10%;
+top: 11px; right:37%;
+position: absolute;
+height: 4px;
+background-color: rgb(255, 0, 0);
+/* z-index: 5555; */
+
+}
